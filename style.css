@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    height: 100vh;
+    
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    color: #fff;
+    font-size: 32px;
+}
+
+#div-one {
+    width: 50vw;
+    height: 50vh;
+
+    background-color: rgb(133, 58, 58);
+    border: 1px #000 solid; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-two {
+    width: 50vw;
+    height: 50vh;
+
+    background-color: rgb(54, 60, 114);
+    border: 1px #000 solid; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SELECTING DIV THAT HAVE A DATA ATTRIBUTE USING [] */
+
+div[data-height='100'] {
+    margin-right: 5px;
+    
+}
+
+div[data-height='200'] {
+    margin-left: 5px;
+}
+
